@@ -9,6 +9,7 @@ import { PoliciesComponent } from './policies/policies.component';
 import { AftercareComponent } from './aftercare/aftercare.component';
 import { InstagramComponent } from './instagram/instagram.component';
 import { ArtComponent } from './art/art.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ArtComponent } from './art/art.component';
     PoliciesComponent,
     AftercareComponent,
     InstagramComponent,
-    ArtComponent
+    ArtComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
