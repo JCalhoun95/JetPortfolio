@@ -1,0 +1,17 @@
+.bg {
+  background-color: rgb(189, 189, 189);
+  height: 100vh;
+}
+
+p {
+  color: maroon;
+  font-family: fantasy;
+  font-size: 10vh;
+}
+
+.box {
+  width: 10in;
+  border: 5px solid maroon;
+  padding: 2in;
+  margin: auto;
+}
