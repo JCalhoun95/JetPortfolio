@@ -1,0 +1,49 @@
+.artBG {
+  /* Main Background */
+  background: rgb(143, 140, 140) no-repeat center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+}
+
+.header {
+  color: maroon;
+  text-shadow: 1px 2px black;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.column img {
+  margin-top: 32px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}

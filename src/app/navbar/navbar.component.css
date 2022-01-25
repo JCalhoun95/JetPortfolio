@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: grey;
+  justify-content: space-between;
+  height: 5vh;
+  font-family: fantasy;
+  font-size: 1.55rem;
+  margin: 0 auto;
+  padding: 1.5em 2em 1em 2em;
+
+}
+
+a {
+  color: maroon;
+}
