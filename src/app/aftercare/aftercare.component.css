@@ -12,6 +12,6 @@ p {
 .box {
   width: 10in;
   border: 5px solid maroon;
-  padding: 2in;
   margin: auto;
+  padding-top: 3in;
 }

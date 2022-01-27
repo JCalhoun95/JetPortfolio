@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { AftercareComponent } from './aftercare/aftercare.component';
-import { InstagramComponent } from './instagram/instagram.component';
 import { ArtComponent } from './art/art.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
@@ -18,7 +17,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     AboutComponent,
     PoliciesComponent,
     AftercareComponent,
-    InstagramComponent,
     ArtComponent,
     NavbarComponent
   ],
