@@ -10,10 +10,14 @@
 .header {
   color: maroon;
   text-shadow: 1px 2px black;
-  font-family: cursive;
+  font-family: fantasy;
   text-align: center;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
+}
+
+h1 {
+  margin-top: 1in;
 }
 
 .row {
@@ -29,7 +33,7 @@
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 24px;
+  /* padding: 0 24px; */
   margin: 0 auto;
 }
 
@@ -42,7 +46,7 @@
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
-    -ms-flex: 50%;
+    -ms-flex: 25%;
     flex: 50%;
     max-width: 50%;
   }
