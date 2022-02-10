@@ -5,3 +5,18 @@
   height: 100vh;
   background-position: center;
 }
+
+.text {
+  color: maroon;
+  font-family: cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200px;
+  padding-top: 2in;
+}
+
+h2, h3 {
+  font-size: 75px;
+}

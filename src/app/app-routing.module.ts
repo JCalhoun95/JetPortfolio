@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { AftercareComponent } from './aftercare/aftercare.component';
-import { ArtComponent } from './art/art.component';
+import { ArtComponent } from './Gallery/art.component';
 import { HomeComponent } from './home/home.component';
 import { PoliciesComponent } from './policies/policies.component';
 

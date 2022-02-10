@@ -1,4 +1,32 @@
-.bg {
-  background-color: grey;
-  background-size: cover;
+.polBG {
+  background-color: rgb(161, 161, 161);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+}
+
+h1 {
+  color: maroon;
+  text-shadow: 2px 2px black;
+  font-family: fantasy;
+  text-align: center;
+  padding: 1em;
+  padding-bottom: 0.75em;
+}
+
+p {
+  color: maroon;
+  font-family: fantasy;
+  padding-top: 1em;
+  font-size: 3vh;
+}
+
+.flex-container {
+  width: 10in;
+  margin-top: .3in;
+  margin-left: 3.2in;
+  text-align: center;
+  border: 5px solid maroon;
+  justify-content: center;
 }

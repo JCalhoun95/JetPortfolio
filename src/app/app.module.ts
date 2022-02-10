@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { AftercareComponent } from './aftercare/aftercare.component';
-import { ArtComponent } from './art/art.component';
+import { ArtComponent } from './Gallery/art.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
