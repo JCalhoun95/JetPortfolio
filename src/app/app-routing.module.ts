@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:"about", component:AboutComponent},
   {path:"art", component:ArtComponent},
   {path:"pollicies", component:PoliciesComponent},
-  {path:"aftercare", component:AftercareComponent}
+  {path:"aftercare", component:AftercareComponent},
 
 ];
 
