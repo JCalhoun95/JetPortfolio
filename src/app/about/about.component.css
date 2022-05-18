@@ -1,5 +1,9 @@
 .abtBG {
-  background-color: gray;
+  background-color: rgb(182, 180, 180);
+  background-image: url(../background/121376-abstract-light-grey-texture-background-design.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -9,24 +13,33 @@
 h1 {
   color: maroon;
   text-shadow: 2px 2px black;
-  font-family: fantasy;
   text-align: center;
-  padding: 1em;
+  padding: 1.3em;
   padding-bottom: 0.75em;
 }
 
 p {
   color: maroon;
-  font-family: fantasy;
   padding-top: 1em;
-  font-size: 3vh;
+  font-size: 3.5vh;
+}
+
+.container {
+  background-image: url(../background/AA7B1723-EBBF-46B3-A09B-762F399B0A90_1_201_a.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 70vh;
+  margin-left: .5in;
+  /* margin-top: 0 in; */
 }
 
 .flex-container {
   width: 10in;
-  margin-top: .3in;
-  margin-left: 3.2in;
+  /* margin-top: in; */
+  margin-left: 5.7in;
   text-align: center;
-  border: 5px solid maroon;
+  /* border: 5px solid maroon; */
   justify-content: center;
 }

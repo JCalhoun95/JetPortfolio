@@ -1,6 +1,10 @@
 .artBG {
   /* Main Background */
-  background: grey no-repeat center;
+  background-color: rgb(182, 180, 180);
+  background-image: url(../background/121376-abstract-light-grey-texture-background-design.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -10,7 +14,6 @@
 .header {
   color: maroon;
   text-shadow: 1px 2px black;
-  font-family: fantasy;
   text-align: center;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
@@ -41,6 +44,7 @@ h1 {
   margin-top: 32px;
   vertical-align: middle;
   width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.608);
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

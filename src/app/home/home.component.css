@@ -8,13 +8,13 @@
 
 .text {
   color: maroon;
-  font-family: fantasy;
   text-align: center;
 }
 
 h1 {
   text-shadow: 2px 2px black;
   font-size: 200px;
+
   padding-top: 2in;
 }
 
