@@ -42,7 +42,7 @@ p {
 .flex-container {
   width: 10in;
   margin-top: .5in;
-  margin-left: 5.7in;
+  margin-left: 5.7in auto;
   text-align: center;
   /* border: 5px solid maroon; */
   justify-content: center;
