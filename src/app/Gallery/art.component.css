@@ -32,7 +32,7 @@ h1 {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%; 
   flex: 25%;
   max-width: 25%;
   margin: 0 auto;
