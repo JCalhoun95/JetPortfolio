@@ -10,12 +10,16 @@
   z-index: -1;
 }
 
-h1 {
+.header {
   color: maroon;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 2px black;
   text-align: center;
-  padding: 1.3em;
+  padding-top: 0.75em;
   padding-bottom: 0.75em;
+}
+
+h1 {
+  margin-top: 1in;
 }
 
 p {
@@ -38,7 +42,7 @@ p {
 .flex-container {
   width: 10in;
   /* margin-top: in; */
-  margin-left: 5.7in;
+  margin-left: 5.in;
   text-align: center;
   /* border: 5px solid maroon; */
   justify-content: center;

@@ -11,12 +11,16 @@
   z-index: -1;
 }
 
-h1 {
+.header {
   color: maroon;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 2px black;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.75em;
   padding-bottom: 0.75em;
+}
+
+h1 {
+  margin-top: 1in;
 }
 
 h2 {
@@ -34,7 +38,7 @@ p {
 .flex-container {
   width: 10in;
   margin-top: .3in;
-  margin-left: 3.2in;
+  margin-left: 2in;
   text-align: center;
   background-color: rgb(200, 196, 196);
   border: 5px solid maroon;
