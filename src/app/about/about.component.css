@@ -36,14 +36,12 @@ p {
   height: 50vh;
   width: 70vh;
   margin-left: .5in;
-  /* margin-top: 0 in; */
 }
 
 .flex-container {
   width: 10in;
   margin-top: .5in;
-  margin-left: 5.7in auto;
+  margin-left: 5.7in ;
   text-align: center;
-  /* border: 5px solid maroon; */
   justify-content: center;
 }

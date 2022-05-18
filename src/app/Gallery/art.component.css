@@ -1,5 +1,4 @@
 .artBG {
-  /* Main Background */
   background-color: rgb(182, 180, 180);
   background-image: url(../background/121376-abstract-light-grey-texture-background-design.jpg) ;
   background-repeat: no-repeat;
@@ -36,7 +35,6 @@ h1 {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  /* padding: 0 24px; */
   margin: 0 auto;
 }
 
