@@ -25,10 +25,10 @@ h1 {
 p {
   color: maroon;
   padding-top: 1em;
-  font-size: 3.5vh;
+  font-size: 3.3vh;
 }
 
-.container {
+.jetIMG {
   background-image: url(../background/AA7B1723-EBBF-46B3-A09B-762F399B0A90_1_201_a.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,8 +40,8 @@ p {
 
 .flex-container {
   width: 10in;
+  margin-left: 5.1in ;
   margin-top: .5in;
-  margin-left: 5.7in ;
   text-align: center;
   justify-content: center;
 }

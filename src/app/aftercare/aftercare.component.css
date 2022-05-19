@@ -36,10 +36,9 @@ p {
 }
 
 .flex-container {
-  width: 10in;
-  margin: 0 auto;
-  margin-top: .3in;
-  margin-left:3.3in;
+  width: 95%;
+  max-width: 968px;
+  margin: 02em auto;
   text-align: center;
   background-color: rgb(200, 196, 196);
   border: 5px solid maroon;
