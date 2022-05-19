@@ -37,6 +37,7 @@ p {
 
 .flex-container {
   width: 10in;
+  margin: 0 auto;
   margin-top: .3in;
   margin-left:3.3in;
   text-align: center;
