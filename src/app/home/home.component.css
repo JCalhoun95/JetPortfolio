@@ -32,3 +32,8 @@ p {
   font-size: 75px;
   margin-bottom: 0;
 }
+
+.container {
+  height: 1in;
+  width: 1in;
+}
