@@ -19,6 +19,7 @@
 }
 
 h1 {
+  font-size: 5rem;
   margin-top: 1in;
 }
 
@@ -35,13 +36,67 @@ p {
   background-position: center;
   height: 50vh;
   width: 70vh;
-  margin-left: .5in;
+  margin-right: 1in;
 }
 
 .flex-container {
   width: 10in;
-  margin-left: 5.1in ;
-  margin-top: .5in;
+  margin-left: 35rem ;
   text-align: center;
   justify-content: center;
 }
+
+/* large tablets, smaller desktops */
+@media screen and (max-width: 958px) {
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+
+/* medium tablets, large phones */
+@media screen and (max-width: 532px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+}
+
+/* small phones, iphone */
+@media screen and (max-width: 348px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+

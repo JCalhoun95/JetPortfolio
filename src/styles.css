@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 
+
 body {
   background-color: whitesmoke;
 }
@@ -16,14 +17,14 @@ h2 {
     font-weight: 300;
 }
 
-h3 {
+h3, h4 {
   font-family: 'New Rocker', cursive;
     font-weight: 100;
 }
 
 p {
   font-family: 'New Rocker', cursive;
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .navbar {
@@ -32,3 +33,10 @@ p {
   font-size: 2rem;
   position: sticky;
 }
+
+@media screen and (max-width : 972px) {
+  .navbar {
+    font-size: x-large;
+  }
+}
+
