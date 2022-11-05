@@ -1,26 +1,33 @@
-<header>
-  <!-- <nav class="navbar navbar-expand-sm bg-dark">
-    <div class="container-sm">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="toggler-icon top-bar"></span>
-        <span class="toggler-icon middle-bar"></span>
-        <span class="toggler-icon bottom-bar"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav"> -->
+<nav class="navbar navbar-expand-sm bg-dark">
 
-        <ul class="navbar">
-          <li><a routerLink="/">Home</a></li>
-          <li><a routerLink="/about">About</a></li>
-          <li><a routerLink="/art">Gallery</a></li>
-          <li><a routerLink="/pollicies">Policies</a></li>
-          <li><a routerLink="/aftercare">Aftercare</a></li>
-          <li><a href="https://www.facebook.com/juliet.hendrix.7" target="_blank">Facebook</a></li>
-          <li><a href="https://www.instagram.com/mightymouse_tattoos" target="_blank">Instagram</a></li>
-        </ul>
-      <!-- </div>
-    </div>
-  </nav> -->
+  <button
+  class="navbar-toggler"
+  type="button"
+  data-toggle="collapse"
+  data-target="#navbarToggler"
+  aria-label="Toggle navigation"
+  aria-controls="navbarToggler"
+  aria-expanded="false"
+  (click)="collapsed = !collapsed"
+  >
+  <span class="navbar-toggler-icon"></span>
+</button>
 
-</header>
+<div
+class="collapse navbar-collapse"
+id="navbarToggler"
+[class.collapse]="collapsed"
+(window:resize)="collapsed = true"
+>
+<ul class="navbar">
+  <li class="nav-item">
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/about">About</a></li>
+    <li><a routerLink="/art">Gallery</a></li>
+    <li><a routerLink="/pollicies">Policies</a></li>
+    <li><a routerLink="/aftercare">Aftercare</a></li>
+    <li><a href="https://www.facebook.com/juliet.hendrix.7" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/mightymouse_tattoos" target="_blank">Instagram</a></li>
+    </ul>
+  </div>
+</nav>
