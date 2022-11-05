@@ -34,9 +34,32 @@ p {
   position: sticky;
 }
 
-@media screen and (max-width : 972px) {
+
+
+@media screen and (max-width : 1588px) {
   .navbar {
-    font-size: x-large;
+    padding-top: 2rem;
   }
 }
-
+@media screen and (max-width : 972px) {
+  .navbar {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width : 972px) {
+  .navbar {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width : 772px) {
+  .navbar {
+    font-size: large;
+  }
+}
+@media screen and (max-width : 575px) {
+  .navbar {
+    padding-top: .5rem;
+  }
+}
