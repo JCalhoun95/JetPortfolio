@@ -10,6 +10,7 @@ import { AftercareComponent } from './aftercare/aftercare.component';
 import { ArtComponent } from './Gallery/art.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
