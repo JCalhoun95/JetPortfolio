@@ -31,10 +31,7 @@ p {
   font-family: 'New Rocker', cursive;
   font-weight: 100;
   font-size: 2rem;
-  position: sticky;
 }
-
-
 
 @media screen and (max-width : 1588px) {
   .navbar {
