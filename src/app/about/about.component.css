@@ -12,42 +12,44 @@
 
 .header {
   color: maroon;
-  text-shadow: 1px 2px black;
+  text-shadow: 1px 1.5px black;
   text-align: center;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
 }
 
 h1 {
-  font-size: 5rem;
-  margin-top: 1in;
+  font-size: 3rem;
+  margin-top: .2rem;
 }
 
 p {
   color: maroon;
-  padding-top: 1em;
-  font-size: 3.3vh;
+  padding-top: 2rem;
+  font-size: 1rem;
 }
 
 .jetIMG {
   background-image: url(../background/AA7B1723-EBBF-46B3-A09B-762F399B0A90_1_201_a.jpeg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
-  height: 50vh;
-  width: 70vh;
+  object-fit: contain;
+  height: 15rem;
+  width: 20rem;
   margin-right: 1in;
+  margin-left: 7rem;
 }
 
-.flex-container {
+/* .container {
   width: 10in;
   margin-left: 35rem ;
   text-align: center;
   justify-content: center;
-}
+} */
 
 /* large tablets, smaller desktops */
-@media screen and (max-width: 958px) {
+/* @media screen and (max-width: 958px) {
 
   h1 {
     font-size: 5rem;
@@ -68,35 +70,32 @@ p {
   p {
     font-size: 1rem;
   }
+} */
+
+@media screen and (min-width: 574px) {
+  .jetIMG {
+    height: 25rem;
+    width: 35rem;
+    margin-left: 7rem;
+  }
 }
 
+/* @media screen and (min-width: 574px) {
+  .jetIMG {
+    width: 20rem;
+    margin-left: 7rem;
+  }
+} */
 
 /* medium tablets, large phones */
-@media screen and (max-width: 532px) {
 
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  h4 {
-    font-size: 2rem;
-  }
-}
 
 /* small phones, iphone */
-@media screen and (max-width: 348px) {
+/* @media screen and (max-width: 348px) {
 
   h1 {
     font-size: 2rem;
   }
 }
 
-
+ */
