@@ -1,5 +1,4 @@
 .aftercareBG {
-  background-color: grey;
   background-color: rgb(182, 180, 180);
   background-image: url(../background/121376-abstract-light-grey-texture-background-design.jpg) ;
   background-repeat: no-repeat;
@@ -12,34 +11,23 @@
 }
 
 .header {
-  color: maroon;
+  /* color: maroon; */
   text-shadow: 1px 2px black;
   text-align: center;
   padding-top: 0.75em;
-  padding-bottom: 0.75em;
-}
-
-h1 {
-  margin-top: 1in;
 }
 
 h2 {
-  color: maroon;
-  text-shadow: 1px 2px black;
-  padding-top: 0.3in;
+  /* color: maroon; */
+  text-shadow: 1px 1px black;
 }
 
-p {
-  color: maroon;
-  font-size: 3vh;
-}
-
-.flex-container {
+.container {
   width: 95%;
   max-width: 968px;
   margin: 02em auto;
   text-align: center;
   background-color: rgb(200, 196, 196);
   border: 5px solid maroon;
-  justify-content: center;
+
 }
