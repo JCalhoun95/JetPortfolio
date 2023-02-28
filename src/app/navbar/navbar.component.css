@@ -2,10 +2,11 @@
 
   color: rgb(128, 0, 0);
   display: flex;
-  align-items: (center) !important;
+  /* align-items: (center) !important; */
   list-style-type: none;
-  /* background-color: rgb(0, 0, 0); */
-  background-color: transparent;
+  background-color: rgb(0, 0, 0);
+  /* background-color: transparent; */
+
   justify-content: space-between;
   position: fixed;
   padding-bottom: 1rem;

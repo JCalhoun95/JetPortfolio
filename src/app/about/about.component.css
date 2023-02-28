@@ -12,7 +12,7 @@
 
 .header {
   color: maroon;
-  text-shadow: 1px 1.5px black;
+  text-shadow: 1px 1px black;
   text-align: center;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
@@ -23,24 +23,27 @@ h1 {
   margin-top: .2rem;
 }
 
-p {
-  color: maroon;
-  padding-top: 2rem;
-  font-size: 1rem;
-}
-
 .jetIMG {
   background-image: url(../background/AA7B1723-EBBF-46B3-A09B-762F399B0A90_1_201_a.jpeg);
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
-  object-fit: contain;
+  /* object-fit: fill; */
   height: 15rem;
-  width: 20rem;
+  width: 100%;
   margin-right: 1in;
   margin-left: 7rem;
 }
 
+/* .container {
+  width: 80%;
+  margin: auto;
+  border: maroon;
+} */
+
+p {
+  padding-top: .5rem;
+}
 /* .container {
   width: 10in;
   margin-left: 35rem ;
@@ -72,13 +75,12 @@ p {
   }
 } */
 
-@media screen and (min-width: 574px) {
+/* @media screen and (min-width: 574px) {
   .jetIMG {
     height: 25rem;
     width: 35rem;
-    margin-left: 7rem;
   }
-}
+} */
 
 /* @media screen and (min-width: 574px) {
   .jetIMG {
